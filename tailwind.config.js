@@ -18,8 +18,15 @@ module.exports = {
     },
     extend: {
       colors: {
-        "my-accent": "#855afd",
-        "my-bg-card": "#1c1a42",
+        "my-accent": "#facc15",
+        "my-hover-accent": "#836b0f",
+        "my-hover": "#292524",
+        "my-bg": "#0c0a09",
+        "my-border": "#292524",
+        "my-white": "#fafaf9",
+        "my-gray": "#a8a29e",
+        "my-bg-secondary": "#292524",
+        "my-text": "#422006",
 
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
