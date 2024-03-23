@@ -2,10 +2,11 @@ import './App.css'
 import { InputWithButton } from './components/InputWithButton'
 import { useState, useEffect } from 'react'
 import { List } from './components/List'
+import { Task } from './TypeProps'
 
 
 function App() {
-	const [tasks, setTasks] = useState([
+	const [tasks, setTasks] = useState<Task[]>([
 		{
 			id: 0,
 			title: 'My first task',

@@ -1,7 +1,7 @@
 export type Task = {
-  id: string;
+  id: number;
   title: string;
-  status: string;
+  status: boolean;
 }
 
 export type ListProps = {
