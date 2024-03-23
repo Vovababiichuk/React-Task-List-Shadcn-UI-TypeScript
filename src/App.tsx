@@ -3,11 +3,6 @@ import { InputWithButton } from './components/InputWithButton'
 import { useState, useEffect } from 'react'
 import { List } from './components/List'
 
-// interface Task {
-// 	id: number
-// 	title: string
-// 	status: boolean
-// }
 
 function App() {
 	const [tasks, setTasks] = useState([

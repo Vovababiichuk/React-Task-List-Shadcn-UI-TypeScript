@@ -5,8 +5,8 @@ import { useState } from 'react'
 export function InputWithButton() {
 	const [taskTitle, setTaskTitle] = useState('')
 
-	const handleAddTaskEnter = e => {
-		if (e.key === 'Enter' && e.target.value !== '') {
+	const handleAddTaskEnter = (e: React.KeyboardEvent<HTMLInputElement>) => {
+		if (e.key === 'Enter' && e.currentTarget.value !== '') {
 			e.preventDefault()
 			console.log(taskTitle)
 		}

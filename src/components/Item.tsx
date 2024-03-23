@@ -1,8 +1,9 @@
 import { Checkbox } from '@/components/ui/checkbox'
+import { Task } from '@/TypeProps'
 import { Delete } from 'lucide-react'
 import { useState } from 'react'
 
-export const Item = ({ id, title, status }) => {
+export const Item = ({ id, title, status }: Task) => {
 	const [isChecked, setIsChecked] = useState(false)
 
 	return (

@@ -1,7 +1,10 @@
+import { ListProps } from '@/TypeProps'
 import { Item } from './Item'
 
 
-export const List = ({ tasks }) => {
+
+
+export const List = ({ tasks }: ListProps) => {
 	console.log(tasks)
 	return (
 		<ul>
